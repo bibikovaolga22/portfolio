@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/bibikovaolga22/portfolio/static/css/main.4ef79e32.css",
-    "main.js": "/bibikovaolga22/portfolio/static/js/main.6121fb8f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/bibikovaolga22/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/bookshelf.png": "/bibikovaolga22/portfolio/static/media/bookshelf.ffdbca7dd21cfa1e5a3a.png",
-    "static/media/mytrail1.png": "/bibikovaolga22/portfolio/static/media/mytrail1.ff093b1f16adb9472605.png",
-    "static/media/travelapp3.png": "/bibikovaolga22/portfolio/static/media/travelapp3.c37872b685ae302fd65d.png",
-    "static/media/me3.png": "/bibikovaolga22/portfolio/static/media/me3.2d18c43c18cd48172cfe.png",
-    "static/media/landingPage.png": "/bibikovaolga22/portfolio/static/media/landingPage.f6de4b88b7bd624d065a.png",
-    "static/media/Resume-Olga-Bibikova.pdf": "/bibikovaolga22/portfolio/static/media/Resume-Olga-Bibikova.60cab76249d6fd20618b.pdf",
-    "static/media/email.svg": "/bibikovaolga22/portfolio/static/media/email.51c81882abe1ef3c577531a59054ecb8.svg",
-    "static/media/logo.svg": "/bibikovaolga22/portfolio/static/media/logo.2ec52d7f4947208d7854c9ce5bebffd5.svg",
-    "index.html": "/bibikovaolga22/portfolio/index.html",
-    "static/media/me5.svg": "/bibikovaolga22/portfolio/static/media/me5.3e39aa06cfb0a880b51e55e9d20ecb50.svg",
-    "static/media/ellipse3.svg": "/bibikovaolga22/portfolio/static/media/ellipse3.a1aa67576ccebbeee149b21e5af0d13e.svg",
-    "static/media/ellipse2.svg": "/bibikovaolga22/portfolio/static/media/ellipse2.7972eee742ebe5f14b124f93894023bf.svg",
-    "static/media/ellipse1.svg": "/bibikovaolga22/portfolio/static/media/ellipse1.a8c47564f6f5353e07cd91c194308eb7.svg",
-    "static/media/border.svg": "/bibikovaolga22/portfolio/static/media/border.ea3b04f30cab5e39088b069b25818f49.svg",
-    "static/media/line.svg": "/bibikovaolga22/portfolio/static/media/line.8bed6c992299028e0aec2465cce2e510.svg",
-    "static/media/lineHor.svg": "/bibikovaolga22/portfolio/static/media/lineHor.34a531d4cdb64067f4ec171516757a82.svg",
-    "main.4ef79e32.css.map": "/bibikovaolga22/portfolio/static/css/main.4ef79e32.css.map",
-    "main.6121fb8f.js.map": "/bibikovaolga22/portfolio/static/js/main.6121fb8f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/bibikovaolga22/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.4ef79e32.css",
+    "main.js": "/portfolio/static/js/main.28198e6a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bookshelf.png": "/portfolio/static/media/bookshelf.ffdbca7dd21cfa1e5a3a.png",
+    "static/media/mytrail1.png": "/portfolio/static/media/mytrail1.ff093b1f16adb9472605.png",
+    "static/media/travelapp3.png": "/portfolio/static/media/travelapp3.c37872b685ae302fd65d.png",
+    "static/media/me3.png": "/portfolio/static/media/me3.2d18c43c18cd48172cfe.png",
+    "static/media/landingPage.png": "/portfolio/static/media/landingPage.f6de4b88b7bd624d065a.png",
+    "static/media/Resume-Olga-Bibikova.pdf": "/portfolio/static/media/Resume-Olga-Bibikova.60cab76249d6fd20618b.pdf",
+    "static/media/email.svg": "/portfolio/static/media/email.51c81882abe1ef3c577531a59054ecb8.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.2ec52d7f4947208d7854c9ce5bebffd5.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/me5.svg": "/portfolio/static/media/me5.3e39aa06cfb0a880b51e55e9d20ecb50.svg",
+    "static/media/ellipse3.svg": "/portfolio/static/media/ellipse3.a1aa67576ccebbeee149b21e5af0d13e.svg",
+    "static/media/ellipse2.svg": "/portfolio/static/media/ellipse2.7972eee742ebe5f14b124f93894023bf.svg",
+    "static/media/ellipse1.svg": "/portfolio/static/media/ellipse1.a8c47564f6f5353e07cd91c194308eb7.svg",
+    "static/media/border.svg": "/portfolio/static/media/border.ea3b04f30cab5e39088b069b25818f49.svg",
+    "static/media/line.svg": "/portfolio/static/media/line.8bed6c992299028e0aec2465cce2e510.svg",
+    "static/media/lineHor.svg": "/portfolio/static/media/lineHor.34a531d4cdb64067f4ec171516757a82.svg",
+    "main.4ef79e32.css.map": "/portfolio/static/css/main.4ef79e32.css.map",
+    "main.28198e6a.js.map": "/portfolio/static/js/main.28198e6a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ef79e32.css",
-    "static/js/main.6121fb8f.js"
+    "static/js/main.28198e6a.js"
   ]
 }
