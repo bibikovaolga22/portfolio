@@ -1,0 +1,35 @@
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #3a3053;
+}
+
+.container {
+  width: 62%;
+}
+
+.container h2 {
+  padding: 3% 0% 6% 0%;
+  color: #f4f4f4;
+  font-family: "Fira Code", monospace;
+  font-weight: 300;
+  width: 80%;
+}
+.container h2 span {
+  color: #c3afff;
+}
+.container h2 img {
+  width: 20%;
+  height: 11px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    width: 72%;
+  }
+  .container h2 {
+    padding: 0% 0% 7% 0%;
+  
+  }
+}

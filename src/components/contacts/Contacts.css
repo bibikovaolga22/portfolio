@@ -1,0 +1,94 @@
+.contacts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3a3053;
+}
+.info {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info h2 {
+  padding: 3% 0% 6% 0%;
+  color: #f4f4f4;
+  font-family: "Fira Code", monospace;
+  font-weight: 300;
+  width: 80%;
+}
+.info h2 span {
+  color: #c3afff;
+}
+.info h2 img {
+  width: 20%;
+  height: 11px;
+}
+.info h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  color: #c3afff;
+  font-family: "Inter", sans-serif;
+}
+.info p {
+  font-family: "Fira Code", monospace;
+  color: #f4f4f4;
+  line-height: 1.7;
+  width: 30%;
+  margin-left: 35%;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+.button button {
+  width: 13%;
+  padding: 1.5% 1% 1.5% 1%;
+  background-color: #3a3053;
+  border-radius: 10px;
+  border: 1px #c3afff solid;
+  color: #c3afff;
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.button button:hover {
+  background-color: #c3afff21;
+  transition: 0.3s;
+}
+.info p:nth-last-of-type(1) {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  margin-left: 0%;
+  padding-top: 20%;
+}
+
+.icon-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-box svg {
+  font-size: 28px;
+  margin: 8px;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .button button {
+    width: 16%;
+  }
+  .info p {
+    line-height: 1.5;
+    width: 53%;
+    margin-left: 26%;
+  }
+}
