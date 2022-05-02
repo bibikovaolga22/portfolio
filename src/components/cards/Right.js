@@ -1,12 +1,10 @@
 import './Right.css';
-
 import border from '../images/border.svg';
 import { FiGithub } from "react-icons/fi";
-import { FiExternalLink } from "react-icons/fi";
 import { motion } from 'framer-motion';
 
 
-const Right = ({ headline, name, description, usedTechnologies, background }) => {
+const Right = ({ headline, name, description, usedTechnologies, background, externalLink }) => {
     return (
 
         < motion.div initial="hidden"
@@ -24,8 +22,7 @@ const Right = ({ headline, name, description, usedTechnologies, background }) =>
                 <p>{description}</p>
                 <h4>{usedTechnologies}</h4>
                 <div className='icons'>
-                    <FiGithub />
-                    <FiExternalLink />
+                    <a target="_blank" href={externalLink}> <FiGithub /></a>
 
                 </div>
             </div>

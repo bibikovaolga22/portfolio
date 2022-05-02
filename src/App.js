@@ -39,8 +39,6 @@ function App() {
 
   }
 
-
-
   return (
 
 
@@ -57,7 +55,7 @@ function App() {
         transition={{ delay: 1, duration: 0.5 }} className='fixed-icons'>
 
         <a href='https://www.linkedin.com/in/olgabibikova/' target="_blank"><FaLinkedin /></a>
-        <a href='https://github.com/bibikovaolga22' target='_blank'><FaGithub /></a>
+        <a href='https://github.com/bibikovaolga22?tab=repositories' target='_blank'><FaGithub /></a>
 
         <img src={lineHor} alt='horisontal-line' />
       </motion.div>
@@ -81,21 +79,6 @@ function App() {
         )}
       </AnimatePresence>
 
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div >
   );
 }

@@ -40,7 +40,7 @@ const Contacts = () => {
                         visible: { y: 0, opacity: 1 }
                     }} className='icon-box'>
                     <a href='https://www.linkedin.com/in/olgabibikova/' target="_blank"><FaLinkedin /></a>
-                    <a href='https://github.com/bibikovaolga22' target='_blank'><FaGithub /></a>
+                    <a href='https://github.com/bibikovaolga22?tab=repositories' target='_blank'><FaGithub /></a>
 
                 </motion.div>
                 <div className='button'>
