@@ -27,7 +27,10 @@ const Banner = () => {
                 <motion.p
                     initial={{ y: 30, opacity: 0.3 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.5 }}> I'm a frontend developer and a UX designer who's open for new challenges and looking for some opportunities of working on real-life projects.</motion.p>
+                    transition={{ delay: 0.5, duration: 0.5 }}> 
+                    I'm a frontend developer and a UX designer who's open for new challenges and looking for opportunities of 
+                    working on real-life projects.
+                    </motion.p>
 
 
                 <motion.button

@@ -34,9 +34,8 @@ const About = () => {
                                 hidden: { y: 30, opacity: 0 },
                                 visible: { y: 0, opacity: 1 }
                             }} >
-                            I'm a self-taught developer specializig in frontend. I have been practicing my coding skills for almost 2 years now.
-                            Since that time I accompleshed dosens of Frontend and UX projects some of which you can find in my portfolio. Also I earned several certificates
-                            from Udacity Univercity and Codecademy Online Courses.
+                            I'm a self-taught developer specializing in Front End. I have been practicing my coding skills for almost 2 years now. Since that time I accomplished dozens of Frontend and UX projects some of which you can find in my portfolio.
+                            Also I earned several certificates from Udacity University and Codecademy Online Courses.
                         </motion.p>
                         <motion.h4 initial="hidden"
                             whileInView="visible"
