@@ -5,12 +5,14 @@
   align-items: center;
   background: #3a3053;
 }
+
 .info {
   width: 62%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .info h2 {
   padding: 3% 0% 6% 0%;
   color: #f4f4f4;
@@ -18,13 +20,16 @@
   font-weight: 300;
   width: 80%;
 }
+
 .info h2 span {
   color: #c3afff;
 }
+
 .info h2 img {
   width: 20%;
   height: 11px;
 }
+
 .info h3 {
   width: 100%;
   text-align: center;
@@ -32,6 +37,7 @@
   color: #c3afff;
   font-family: "Inter", sans-serif;
 }
+
 .info p {
   font-family: "Fira Code", monospace;
   color: #f4f4f4;
@@ -39,6 +45,7 @@
   width: 30%;
   margin-left: 35%;
 }
+
 .button {
   width: 100%;
   display: flex;
@@ -46,6 +53,7 @@
   align-items: center;
   height: 130px;
 }
+
 .button button {
   width: 13%;
   padding: 1.5% 1% 1.5% 1%;
@@ -58,10 +66,12 @@
   transition: 0.3s;
   cursor: pointer;
 }
+
 .button button:hover {
   background-color: #c3afff21;
   transition: 0.3s;
 }
+
 .info p:nth-last-of-type(1) {
   font-size: 10px;
   width: 100%;
@@ -82,13 +92,32 @@
   color: #f4f4f4;
   cursor: pointer;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .button button {
     width: 16%;
   }
+
   .info p {
     line-height: 1.5;
-    width: 53%;
-    margin-left: 26%;
+    width: 50%;
+    margin-left: 27%;
   }
+
+  .info {
+    width: 72%;
+
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .info {
+    width: 80%;
+  }
+
+  .info p {
+    width: 56%;
+    margin-left: 25%;
+  }
+
 }

@@ -9,15 +9,18 @@
   flex-direction: column;
   align-items: center;
 }
+
 .fixed-icons svg {
   font-size: 30px;
   color: #c3afff;
   padding-bottom: 10px;
   cursor: pointer;
 }
+
 .fixed-icons img {
   height: 150px;
 }
+
 .email-fixed {
   width: 200px;
   position: fixed;
@@ -29,9 +32,11 @@
   flex-direction: column;
   align-items: center;
 }
+
 .email-fixed img {
   padding-bottom: 10px;
 }
+
 .email-fixed img:nth-last-of-type(1) {
   height: 150px;
   padding-bottom: 0px;
@@ -89,16 +94,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   .fixed-icons,
   .email-fixed {
     width: 10px;
   }
+
   .back-to-top {
     position: fixed;
     bottom: 20px;
@@ -115,4 +123,30 @@
     border: none;
     cursor: pointer;
   }
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .fixed-icons,
+  .email-fixed {
+    width: 15px;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    background-color: #785b96;
+    width: 52px;
+    padding: 1.5% 0% 1.5% 0%;
+    margin-top: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+
 }

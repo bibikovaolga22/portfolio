@@ -13,23 +13,27 @@
   z-index: 7;
   transition: all 0.2s linear;
 }
+
 .overlay:hover {
   background-color: rgba(240, 248, 255, 0);
   transition: all 0.2s linear;
 }
 
-.overlay:hover + .image img:nth-last-of-type(1) {
+.overlay:hover+.image img:nth-last-of-type(1) {
   margin-left: 8%;
   transition: all 0.2s linear;
 }
+
 .img-container {
   width: 50%;
   height: 550px;
 }
+
 .image {
   width: 100%;
   height: 400px;
 }
+
 .image img {
   width: 30%;
   border-radius: 45px;
@@ -47,11 +51,13 @@
   z-index: 1;
   transition: all 0.2s linear;
 }
+
 .text-container {
   width: 30%;
   text-align: end;
   z-index: 7;
 }
+
 .text-container p {
   padding: 10%;
   background: #433567;
@@ -62,6 +68,7 @@
   color: #f4f4f4;
   text-align: start;
 }
+
 .text-container h2 {
   width: 100%;
   text-align: end;
@@ -69,6 +76,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
 .text-container h3 {
   width: 100%;
   text-align: end;
@@ -80,6 +88,7 @@
   font-weight: 300;
   color: #c3afff;
 }
+
 .text-container h4 {
   color: #c3afff;
   font-size: 120%;
@@ -88,6 +97,7 @@
   width: 100%;
   text-align: center;
 }
+
 .icons {
   width: 100%;
   height: 55px;
@@ -95,37 +105,45 @@
   justify-content: center;
   align-items: flex-end;
 }
+
 .icons svg {
   color: #f4f4f4;
   height: 30px;
   width: 55px;
   cursor: pointer;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .image img {
     width: 40%;
     height: 320px;
   }
+
   .overlay {
     width: 40%;
     height: 330px;
   }
+
   .image img:nth-last-of-type(1) {
     margin-left: 4%;
     height: 320px;
     margin-top: -5%;
   }
+
   .image {
     width: 100%;
     height: 350px;
   }
+
   .img-container {
     width: 60%;
     height: 450px;
   }
+
   .text-container h3 {
     font-size: 17px;
   }
+
   .text-container p {
     padding: 6%;
     background: #433567;
@@ -135,10 +153,75 @@
     margin-left: -35%;
     font-size: 14px;
   }
+
   .text-container h2 {
     font-size: 22px;
   }
-  .text-container h4{
+
+  .text-container h4 {
     font-size: 115%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+
+  .img-container {
+    width: 60%;
+  }
+
+  .image img {
+    width: 50%;
+    height: 340px;
+  }
+
+  .overlay {
+    width: 50%;
+  }
+
+  .image img:nth-last-of-type(1) {
+    margin-left: 23%;
+    height: 340px;
+    margin-top: -8%;
+  }
+
+  .text-container h3 {
+    width: 70%;
+    text-align: end;
+    display: block;
+    margin-left: 31%;
+    padding: 0px;
+    font-size: 18px;
+
+  }
+
+  .text-container {
+    width: 41%;
+  }
+
+  .img-container {
+    width: 56%;
+    height: 475px;
+  }
+
+  .text-container h2 {
+    font-size: 125%;
+  }
+
+  .text-container p {
+    margin-left: -10%;
+  }
+
+  .text-container h4 {
+    text-align: end;
+    font-size: 100%;
+    width: 108%;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

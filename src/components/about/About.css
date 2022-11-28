@@ -4,47 +4,57 @@
   justify-content: center;
   background: #3a3053;
   align-items: center;
-  height: 70vh;
+  min-height: 75vh;
 }
+
 .about-me-box {
   width: 62%;
 }
+
 .my-image-container {
   width: 50%;
   display: flex;
   justify-content: flex-end;
 }
+
 .my-image-container img {
   width: 20%;
   position: absolute;
 }
+
 .about-info {
   width: 100%;
   display: flex;
   align-items: center;
 }
+
 .line {
   width: 50%;
 }
+
 .my-image-container img:nth-last-of-type(1) {
   width: 70%;
   position: relative;
   margin-right: -10%;
 }
+
 .about-me-box h2 {
   color: #f4f4f4;
   font-family: "Fira Code", monospace;
   font-weight: 300;
   width: 80%;
 }
+
 .about-me-box h2 img {
   width: 20%;
   height: 11px;
 }
+
 .line h2 img {
   width: 180px;
   margin-left: 10px;
 }
+
 .line p {
   color: #f4f4f4;
   width: 70%;
@@ -52,6 +62,7 @@
   padding: 3% 0% 3% 0%;
   font-family: "Fira Code", monospace;
 }
+
 .about-me-box h2 span {
   color: #c3afff;
 }
@@ -70,6 +81,7 @@
   padding: 0;
   height: auto;
 }
+
 .technologies li {
   width: 30%;
   list-style: none;
@@ -78,58 +90,91 @@
   color: #c3afff;
   line-height: 1.8;
 }
+
 .technologies li::before {
   content: "▸";
   color: #c3afff;
   margin-right: 5px;
 }
+
 .my-image-container img:hover {
   background-color: rgba(240, 248, 255, 0);
   transition: all 0.2s linear;
 }
 
-.my-image-container img:hover + .my-image-container img:nth-last-of-type(1) {
+.my-image-container img:hover+.my-image-container img:nth-last-of-type(1) {
   margin-left: 8%;
   transition: all 0.2s linear;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  /* .my-image-container {
-    width: 38%;
-  }
-  .about-info {
-    width: 34%;
-  }
-  .about-me {
-    padding-top: 7%;
-    height: auto;
-  }
-  .line p {
-    width: 100%;
-  }
-  .my-image-container img {
-    width: 26%;
-  } */
+
+
   h2 {
     font-size: 18px;
   }
+
   .about-me-box {
     width: 72%;
   }
+
   .about-me {
-    height: 110vh;
+    min-height: 110vh;
+
   }
+
   .line {
     width: 70%;
   }
+
   .technologies {
-    width: 80%;
+    width: 90%;
   }
+
   .my-image-container img {
     width: 25%;
     position: absolute;
   }
+
   .my-image-container img:nth-last-of-type(1) {
     width: 90%;
   }
+}
+
+@media only screen and (max-width: 1024px) {
+  .line {
+    width: 100%;
+  }
+
+  .about-me-box {
+    width: 80%;
+  }
+
+  .technologies {
+    width: 100%;
+  }
+
+  .line p {
+    width: 90%;
+  }
+
+  .my-image-container {
+    width: 70%;
+  }
+
+  .my-image-container img {
+    width: 29%;
+    margin-bottom: 20%;
+  }
+
+  .my-image-container img:nth-last-of-type(1) {
+    width: 90%;
+
+  }
+
+  .about-me {
+    align-items: baseline;
+    height: 50vh;
+  }
+
 }

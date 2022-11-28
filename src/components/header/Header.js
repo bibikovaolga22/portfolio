@@ -24,7 +24,7 @@ const Header = () => {
                         initial={{ y: -80 }}
                         animate={{ y: 0 }}
                         transition={{ delay: 0.1, duration: 0.5 }}><span>01.</span>
-                        < HashLink to='#about' smooth  > About Me</ HashLink></motion.li>
+                        < HashLink to='#about' smooth  >About Me</ HashLink></motion.li>
                     <motion.li initial={{ y: -80 }}
                         animate={{ y: 0 }}
                         transition={{ delay: 0.3, duration: 0.5 }}><span>02.</span>
@@ -33,7 +33,7 @@ const Header = () => {
                     <motion.li initial={{ y: -80 }}
                         animate={{ y: 0 }}
                         transition={{ delay: 0.5, duration: 0.5 }}><span>03.</span>
-                        < HashLink to='#contacts' smooth  > Contacts</ HashLink>
+                        < HashLink to='#contacts' smooth  >Contacts</ HashLink>
                     </motion.li>
 
                 </ul>

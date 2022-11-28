@@ -16,9 +16,11 @@
   font-weight: 300;
   width: 80%;
 }
+
 .container h2 span {
   color: #c3afff;
 }
+
 .container h2 img {
   width: 20%;
   height: 11px;
@@ -28,8 +30,10 @@
   .container {
     width: 72%;
   }
+
   .container h2 {
     padding: 0% 0% 7% 0%;
-  
+
   }
 }
+
