@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ef79e32.css",
-    "main.js": "/static/js/main.b79ffb9b.js",
+    "main.css": "/static/css/main.f2efb7dc.css",
+    "main.js": "/static/js/main.b88347f6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bookshelf.png": "/static/media/bookshelf.ffdbca7dd21cfa1e5a3a.png",
     "static/media/mytrail1.png": "/static/media/mytrail1.ff093b1f16adb9472605.png",
@@ -9,22 +9,22 @@
     "static/media/me3.png": "/static/media/me3.2d18c43c18cd48172cfe.png",
     "static/media/landingPage.png": "/static/media/landingPage.f6de4b88b7bd624d065a.png",
     "static/media/Resume-Olga-Bibikova.pdf": "/static/media/Resume-Olga-Bibikova.60cab76249d6fd20618b.pdf",
-    "static/media/email.svg": "/static/media/email.51c81882abe1ef3c577531a59054ecb8.svg",
-    "static/media/logo.svg": "/static/media/logo.2ec52d7f4947208d7854c9ce5bebffd5.svg",
+    "static/media/email.svg": "/static/media/email.2efd1cbddea1d0bfbd70493184b5a82d.svg",
+    "static/media/logo.svg": "/static/media/logo.0378c449718e95dbf806e4299bf6ea82.svg",
     "index.html": "/index.html",
-    "static/media/me5.svg": "/static/media/me5.3e39aa06cfb0a880b51e55e9d20ecb50.svg",
-    "static/media/ellipse3.svg": "/static/media/ellipse3.a1aa67576ccebbeee149b21e5af0d13e.svg",
-    "static/media/ellipse2.svg": "/static/media/ellipse2.7972eee742ebe5f14b124f93894023bf.svg",
-    "static/media/ellipse1.svg": "/static/media/ellipse1.a8c47564f6f5353e07cd91c194308eb7.svg",
-    "static/media/border.svg": "/static/media/border.ea3b04f30cab5e39088b069b25818f49.svg",
-    "static/media/line.svg": "/static/media/line.8bed6c992299028e0aec2465cce2e510.svg",
-    "static/media/lineHor.svg": "/static/media/lineHor.34a531d4cdb64067f4ec171516757a82.svg",
-    "main.4ef79e32.css.map": "/static/css/main.4ef79e32.css.map",
-    "main.b79ffb9b.js.map": "/static/js/main.b79ffb9b.js.map",
+    "static/media/me5.svg": "/static/media/me5.ce643218986880c164317b5583c55da6.svg",
+    "static/media/ellipse3.svg": "/static/media/ellipse3.088e64582102ae1c6e8557424b03f33a.svg",
+    "static/media/ellipse2.svg": "/static/media/ellipse2.21fcd2c446d3f48a75102d3f0f675ffc.svg",
+    "static/media/ellipse1.svg": "/static/media/ellipse1.1cb9566e9cc7be940db8e78bea8a8d20.svg",
+    "static/media/border.svg": "/static/media/border.42e00f9a52599a587708a412f5f8b91d.svg",
+    "static/media/line.svg": "/static/media/line.90a414013965a68c2de40de8dc96530e.svg",
+    "static/media/lineHor.svg": "/static/media/lineHor.b4b862f6a78632704653d3f8dc40e8fa.svg",
+    "main.f2efb7dc.css.map": "/static/css/main.f2efb7dc.css.map",
+    "main.b88347f6.js.map": "/static/js/main.b88347f6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ef79e32.css",
-    "static/js/main.b79ffb9b.js"
+    "static/css/main.f2efb7dc.css",
+    "static/js/main.b88347f6.js"
   ]
 }
